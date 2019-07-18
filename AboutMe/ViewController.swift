@@ -12,18 +12,24 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var hobbiesLabel: UILabel!
+    @IBOutlet weak var introButton: UIButton!
+    @IBOutlet weak var nameTitleLabel: UILabel!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupLabels()
+        
     }
 
 
     func setupLabels() {
+       nameLabel.text = nil
+        hobbiesLabel.text = nil
+    }
+    
+    @IBAction func introButtonTapped(_ sender: Any) {
         nameLabel.text = "Aaron Haughton"
         hobbiesLabel.text = "Biking and video games"
     }
-    
 }
 
