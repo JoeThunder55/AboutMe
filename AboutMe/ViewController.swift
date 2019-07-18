@@ -12,7 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Hi. My name is(huh?) My Name is (wha?) My name is (Who?) Slim Shady.")
     }
 
 
